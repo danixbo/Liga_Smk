@@ -1,0 +1,372 @@
+* {
+    font-family: 'DM Sans';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: 85px;
+    background: white;
+    display: flex;
+    padding: 25px 280px;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 120px;
+    margin-left: 50px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+ul {
+    margin-right: 120px;
+    margin-top: 5px;
+}
+a {
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+ul {
+    gap: 35px;
+}
+
+li img {
+    margin-bottom: -3px;
+    margin-left: 5px;
+}
+
+/* <----------------------------------- CONTAINER PERTAMA -------------------------------------> */
+
+.container {
+    width: 100%;
+}
+
+.container-pertama {
+    gap: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 95vh;
+    background: #f0f3ff;
+}
+
+.sisi-kiri {
+    padding: 0px 20px;
+    width: 30%;
+    height: 69%;
+}
+
+.judul-kiri p {
+    font-size: 3.9rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.deskripsi-kiri p {
+    margin: 40px 0px;
+    color: #787879;
+    font-size: 1.2rem;
+}
+
+.mulai-sekarang {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: #3a10e5;
+    border-radius: 4px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    display: flex;
+    height: 45px;
+    width: 220px;
+}
+
+.sisi-kanan img {
+    width: 93%;
+    margin-bottom: 70px;
+}
+
+/* <----------------------------------- CONTAINER KEDUA -------------------------------------> */
+
+.container-kedua {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 21vh;    
+    background: #facb3b;
+}
+
+.kotak-container-kedua {
+    display: flex;
+    width: 310px;
+    height: 72px;
+    /* border: 1px solid black; */
+}
+.kotak-container-kedua img {
+    width: 50px;
+}
+
+.fixed {
+    margin-left: 110px;
+    margin-right: 90px;
+}
+
+.fixed img {
+    width: 40px;
+}
+
+.fixed2 img {
+    width: 60px;
+}
+
+.judes {
+    padding-left: 30px;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.judes strong {
+    font-size: 22px;
+}
+
+/* <----------------------------------- CONTAINER KETIGA -------------------------------------> */
+
+.container-ketiga {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120vh;    
+    background: #ffffff;
+}
+
+.kotak-ketiga {
+    width: 68%;
+    height: 78%;
+}
+
+.judul-ketiga {
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    display: flex;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+.button-kanan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.button-ketiga {
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    width: 9rem;
+    height: 80%;
+    background: white;
+    transition: box-shadow 0.3s ease;
+}
+
+.kecil {
+    width: 5rem;
+}
+
+.besar {
+    width: 10rem;
+}
+
+.button-ketiga:hover {
+    box-shadow: #64646f33 0px 0px 30px;
+}
+
+.warna-ada {
+    background: #fdd5a1;
+}
+
+.berita {
+    width: 100%;
+    height: 81%;
+}
+
+.baris1 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.kotak-berita {
+    width: 250px;
+    height: 350px;
+    /* outline: grey; */
+}
+
+.desberita {
+    margin-top: -6px;
+    border: 1px solid grey;
+    padding: 20px;
+
+}
+
+.kotak-berita img {
+    width: 251px;
+}
+
+.pertama {
+    color: #461fe6;
+    font-weight: 600;
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+.beritabawah {
+    margin-top: 20px;
+    display: flex;
+}
+
+.satubawah {
+    display: flex;
+    font-size: small;
+}
+.satubawah img {
+
+    margin-right: 5px;
+    width: 10px;
+}
+
+.duabawah {
+    display: flex;
+    padding: 0px 20px;
+    font-size: small;
+}
+
+.duabawah img {
+    margin-right: 5px;
+    width: 10px;
+}
+
+.news {
+    position: absolute;
+    padding: 10px;
+}
+.news img {
+    width: 50px;
+}
+
+/* <----------------------------------- CONTAINER KEEMPAT -------------------------------------> */
+
+.container-keempat {
+    width: 100%;
+    height: 35vh;
+    background: #fff0e5;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 200px;
+}
+
+.container-keempat p {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.container-kelima {
+    width: 100%;
+    height: 60vh;
+    gap: 200px;
+}
+.explore {
+    cursor: pointer;
+    color: #5834e8;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 6rem;
+}
+.explore img {
+    margin-bottom: -3px;
+}
+
+.container-kelima h2 {
+    text-align: center;
+    margin-top: 7rem;
+    font-size: 30px;
+}
+
+.baris1-kategori {
+    margin-top: 6rem;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.kecil-top {
+    margin-top: 3rem;
+}
+.kotak-kategori {
+    padding: 20px 30px;
+    display: flex;
+    gap: 40px;
+    width: 280px;
+    height: 100px;
+    border-radius: 6px;
+    box-shadow: #959da533 0px 8px 24px;
+}
+
+.kotak-kategori img {
+    width: 40px;
+}
+
+
+
+.deskategori strong {
+    font-size: 30px;
+}
+
+.besar-kater img {
+    width: 40px;
+}
+
+.besar-kater {
+    width: 320px;
+}
+
+.container-keenam {
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 200px;
+}
+
+.kotak-keenam {
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 80%;
+    height: 100%;
+    background: #f0f3ff;
+}
+.kiri-keenam img {
+    width: 400px;
+}
